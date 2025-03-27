@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Viña Outlet Park</title>
+
+  <!-- Enlace al archivo de estilos CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Enlace a Font Awesome para íconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Encabezado con logo e íconos de navegación -->
+  <header>
+    <div class="logo">
+      <img src="img/logo.png" alt="Logo Viña Outlet Park" />
+    </div>
+    <nav>
+      <ul>
+        <li><i class="fas fa-store"></i> <a href="#tiendas">Tiendas</a></li>
+        <li><i class="fas fa-smile"></i> <a href="#panoramas">Panoramas</a></li>
+        <li><i class="fas fa-map-marker-alt"></i> <a href="#ubicacion">Ubicación</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Banner principal con horario -->
+  <section class="banner">
+    <div class="texto">
+      <h2>Recuerda <span>nuestro horario</span></h2>
+      <p>Lunes a Domingo</p>
+      <h3>10:00 a 20:00</h3>
+  
+      <!-- Imagen decorativa -->
+      <div class="imagen-decorativa">
+        <img src="img/image.png" alt="Decoración visual" />
+      </div>
+    </div>
+  
+    <div class="imagen">
+      <img src="img/banner.png" alt="Ropa y accesorios" />
+    </div>
+  </section>
+
+  <!-- Sección Tiendas -->
+  <section id="tiendas" class="galeria">
+    <h2>Tiendas</h2>
+    <div class="grid">
+      <div class="item"><img src="img/mujer.jpg" alt="Mujer" /><span>Mujer</span></div>
+      <div class="item"><img src="img/hombre.jpg" alt="Hombre" /><span>Hombre</span></div>
+      <div class="item"><img src="img/infantil.jpg" alt="Infantil" /><span>Infantil</span></div>
+      <div class="item"><img src="img/deco.jpg" alt="Deco Hogar" /><span>Deco Hogar</span></div>
+    </div>
+  </section>
+
+  <!-- Sección Panoramas -->
+  <section id="panoramas" class="galeria">
+    <h2>Panoramas</h2>
+    <div class="grid">
+      <div class="item"><img src="img/show.jpg" alt="Show Infantil" /><span>Show Infantil</span></div>
+      <div class="item"><img src="img/discovery.jpg" alt="Discovery Land" /><span>Discovery Land</span></div>
+      <div class="item"><img src="img/cars.jpg" alt="Rum Rum Cars" /><span>Rum Rum Cars</span></div>
+      <div class="item"><img src="img/patio.jpg" alt="Patio de Comida" /><span>Patio de Comida</span></div>
+      <div class="item"><img src="img/feria.jpg" alt="Feria" /><span>Feria de Emprendedores</span></div>
+      <div class="item"><img src="img/pronto1.jpg" alt="Pronto" /><span>Pronto<br><small>más panoramas</small></span></div>
+      <div class="item"><img src="img/pronto2.jpg" alt="Pronto" /><span>Pronto<br><small>más panoramas</small></span></div>
+    </div>
+  </section>
+
+  <!-- Sección Mapa de Ubicación -->
+  <section id="ubicacion">
+    <h2>Ubicación de las tiendas</h2>
+    <img src="img/mapa.png" alt="Mapa de tiendas" class="mapa" />
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="columnas">
+      <div class="col">
+        <h3>Desde Valparaíso</h3>
+        <p>214 - 211 - 202</p>
+      </div>
+      <div class="col">
+        <h3>Desde Viña del Mar</h3>
+        <p>401 - 406 - 410 - 411</p>
+      </div>
+      <div class="col">
+        <h3>Desde Rotonda de Concón</h3>
+        <p>305</p>
+      </div>
+      <div class="col">
+        <h3>Desde Peñablanca</h3>
+        <p>305</p>
+      </div>
+    </div>
+  
+    <div class="info">
+      <div>
+        <h4>DIRECCIÓN</h4>
+        <p>Camino Internacional 2440, Reñaca Alto, Viña del Mar</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.617582771715!2d-71.49504232440027!3d-33.016229675861616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689de49e413eabf%3A0xd75c1c6a69fdcc00!2sCam.%20Internacional%202440%2C%20Vi%C3%B1a%20del%20Mar!5e0!3m2!1ses-419!2scl!4v1711470000000!5m2!1ses-419!2scl"
+          width="100%" height="150" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+  
+      <div>
+        <h4>HORARIO</h4>
+        <p><strong>Lunes a Domingo</strong><br>10:00 a 20:00 hrs.</p>
+        <p><strong>Estacionamiento</strong><br>Gratis los primeros 30 minutos<br>
+          Cada 1/2 hora: $500 pesos<br>
+          Tarifa máxima: $3.500 pesos</p>
+      </div>
+  
+      <div>
+        <h4>CONTACTO</h4>
+        <p><i class="fas fa-envelope"></i> novedades@outletpark.cl</p>
+        <p><i class="fas fa-phone-alt"></i> 32 251 4100</p>
+  
+        <!-- Íconos redes -->
+        <div class="social">
+          <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="copy">
+      <p>© 2024 Viña Outlet Park. Todos los derechos reservados. Diseñado por WORKLab</p>
+    </div>
+  </footer>
+  
